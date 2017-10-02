@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+  background:url('intro-bg.jpg')no-repeat bottom;
+  background-size:cover;
+  width: 100%;
+  height: 100vh;
+}
+.navbar a{
+  font-size: 1.5rem;
+  color:rgba(229, 236, 227, 0.87);
+  transition: all .7s;
+
+}
+.navbar a:hover{
+  color: #93D71A
+}
+.intro-head{
+  display: table;
+  width: 100%;
+  height: auto;
+  padding:200px 0;
+  text-align:center;
+  color: #fff;
+}
+.intro-body{
+  display: table-cell;
+  vertical-align: middle;
+}
+.link-select h1{
+  color:rgba(242, 242, 242, 0.35);
+  font-size: 4.1rem;
+  text-transform: uppercase;
+}
+.link-select a{
+  text-decoration:none;
+  color:rgba(242, 242, 242, 0.35);
+  transition:all .6s;
+}
+.button{
+  display: inline-block;
+  padding: .7rem;
+  border:1px solid #3E4932;
+  border-radius:200px;
+  
+}
+.link-select a:hover{
+  background:rgba(0,0,0,.8);
+  color: #fff;
+}
+.round-btn{
+  display: inline-block;
+  margin-right: 2.2rem;
+  border:2px solid #3E4932;
+  border-radius: 50%;
+  font-size: 2rem;
+}
